@@ -27,9 +27,9 @@ public class HelloMessageListener {
     public void listen(@Payload HelloWorldMessage helloWorldMessage,
                        @Headers MessageHeaders headers, Message message){
 
-        //System.out.println("I Got a Message!!!!!");
+        System.out.println("I Got a Message!!!!!");
 
-       // System.out.println(helloWorldMessage);
+        System.out.println(helloWorldMessage);
 
 
         // uncomment and view to see retry count in debugger
